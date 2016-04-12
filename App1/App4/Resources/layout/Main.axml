@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/login"
+        android:text="inputLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="inputLogin" />
+    <TextView
+        android:text="password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/password"
+        android:text="inputPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="inputPasword" />
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnSos"
+        android:text="SOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Waiting on location updates..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lat"
+        android:textSize="15sp"
+        android:paddingLeft="15dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/longx"
+        android:textSize="15sp"
+        android:paddingLeft="15dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alt"
+        android:textSize="15sp"
+        android:paddingLeft="15dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/speed"
+        android:textSize="15sp"
+        android:paddingLeft="15dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/acc"
+        android:textSize="15sp"
+        android:paddingLeft="15dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bear"
+        android:textSize="15sp"
+        android:paddingLeft="15dp" />
+</LinearLayout>
